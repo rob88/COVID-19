@@ -9,7 +9,7 @@
     <meta name="keywords" content="covid-19,coronavirus, COVID-19 report, coronavirus latest, how many people got coronavirus in the world">
     <meta name="author" content="Reben Faraj">
     <meta name="description" content="How many peoples are in the world got coronavirus COVID-19 "/>
-    <meta property="og:image" content="http://webdesign.me.uk/covid19/covid-19-live.jpg">
+    <meta property="og:image" content="http://webdesign.me.uk/covid19/img/covid-19-live.jpg">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 

@@ -1,0 +1,43 @@
+
+
+.mytable{
+    background-color: #9b59b6;
+    color:#ecf0f1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.thead{
+    width:100px;
+
+}
+
+.navbar-custom
+{
+
+background-color:#FFC312;
+color: #FFC312;
+z-index: 1024;
+
+}
+nav .navbar-nav li a
+{
+color: #9b59b6 !important;
+font-stretch: extra-expanded;
+font-weight: bolder;
+
+}
+.navbar-brand
+{
+color:#9b59b6 !important;
+font-stretch: extra-expanded;
+font-weight: bold;
+font-size: 23px;
+color: #16a085;
+}
+
+th, td {
+
+     width: 6%;
+    color: white;
+}

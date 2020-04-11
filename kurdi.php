@@ -1,4 +1,4 @@
-<?php   header("refresh: 7");  ?>
+<?php  // header("refresh: 7");  ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,22 +8,23 @@
     <meta name=”robots” content="index, follow">
     <meta name="keywords" content="covid-19,coronavirus, COVID-19 report, coronavirus latest, how many people got coronavirus in the world">
     <meta name="author" content="Reben Faraj">
-    <meta name="description" content="How many peoples are in the world got coronavirus COVID-19 "/>
-    <meta property="og:image" content="http://webdesign.me.uk/covid19/covid-19-live.jpg">
+    <meta name="description" content="لێره دا ڕاس ته و خۆ ڕێژه ی توشبوانو مردوانی کۆرانا بزانه"/>
+    <meta property="og:image" content="http://webdesign.me.uk/covid19/corona.jpg">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script data-ad-client="ca-pub-1591932822702274" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <title>COVID-19 Report / How many people got coronavirus in the world</title>
+
+
+    <title>Live توشبوانی کۆرانا له جیهاندا</title>
+
   </head>
 
   <body>
-
-<?php require('covidAPI.php');  ?>
-<div class="container">
+      <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-  <a class="navbar-brand" href="index.php">Live COVID-19 From WHO</a>
+  <a class="navbar-brand" href="kurdi.php">Live توشبوانی کۆرانا له جیهاندا</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -32,10 +33,10 @@
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
       <li class="nav-item ">
-        <a class="nav-link active" href="index.php">English <span class="sr-only">(current)</span> </a>
+        <a class="nav-link" href="index.php">English </a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="kurdi.php">کوردی </a>
+      <li class="nav-item active">
+        <a class="nav-link" href="kurdi.php">کوردی <span class="sr-only">(current)</span></a>
       </li>
 
     </ul>
@@ -43,7 +44,8 @@
     </div>
     </div>
 </nav>
-      <div class="container">
+<?php require('covidAPI.php');  ?>
+      <div class="container" id="div_refresh">
 
           <div class="card">
               <div class="card-header bg-warning">
@@ -56,8 +58,11 @@
               </div>
             <div class="card-body">
               <p class="card-title alert alert-success">
-                  This is the latest information from WHO  Database, showing all the countries are affected by COVID-19 <br />
-
+               لێره دا زانیاری ته واو له سه ر توشبوانی ڤایرۆسی کرۆ نا له جیهاندا بزانه
+                <br />
+              <big>WHO</big> ته وای ئه م داتایانه له داتا به یسی ڕێخراوی ته ندروستی جیهانی
+                <br />
+               وه رگیراوه
               </p>
               <p class="card-text">
 
@@ -65,11 +70,11 @@
 
 echo'
   <table class="table table-bordered mytable">
-       <thead class="thead">
+       <thead class="thead text-center">
            <tr>
-               <th>List of countries</th>
-               <th>Confirmed Cases</th>
-               <th>Reported Deaths</th>
+               <th>ناوی وڵا ته کان</th>
+               <th>ڕێژه ئ توشبوان</th>
+               <th>ڕێژه ی مردوان</th>
                </tr>
                </thead>
   ';
@@ -96,7 +101,6 @@ echo'
 
 
           ?>
-
 
 
 
